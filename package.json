@@ -1,0 +1,23 @@
+{
+  "name": "proxy-router",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin",
+    "dev": "webpack -w --mode development & nodemon ./bin",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "redbird": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "nodemon": "^1.19.1",
+    "source-map-support": "^0.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
